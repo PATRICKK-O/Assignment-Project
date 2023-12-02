@@ -146,6 +146,10 @@ ul#menu li a{
 	text-align: center;
 	font-weight:bold;
 }
+.span-author {
+	display: block;
+	color: wheat;
+}
 
 @media (max-width: 600px) or (min-width:600px){
 	#logoBox{

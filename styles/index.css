@@ -37,7 +37,7 @@ ul#menu{
 }
 
 ul#menu li a{
-	color:#fff;
+	color: white;
 	text-decoration:none;
 	display: block;
 	margin-bottom:10px;
@@ -147,7 +147,6 @@ ul#menu li a{
 	font-weight:bold;
 }
 
-
 @media (max-width: 600px) or (min-width:600px){
 	#logoBox{
 		width:150px;
@@ -180,6 +179,7 @@ ul#menu li a{
 	#bannerSection {
 		padding-bottom: 40px;
 		padding-left: 20%;
+		color: white;
 	}
 
 	#mainHeader{
@@ -221,15 +221,16 @@ ul#menu li a{
 	}
 
 	#bannerContent > h2{
-		font-size:37px;
+		font-size: 67px;
 	}
 
 	#bannerContent > p{
-		font-size:25px;
+		font-size: 35px;
+		margin-left: 12px;
 	}
 	#bannerSection {
-		margin-left: 15%;
-		margin-top: 15%;
+		margin-left: 12%;
+		margin-top: 12%;
 	} 
 
 	.container-fluid{

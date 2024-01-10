@@ -13,16 +13,90 @@
 </head>
 <body>
 
-  <script>
-    const getData = async ()=>{
-            const response = await fetch(`http://student-api.softwareacademy.ng/detail/api/?id=${11}`);
-            const data = await response.json();
-            console.log(data);
-            console.log(data.menu_name);
-            console.log(data.prize);
-        }
+  <div id="wrapper">
+    <div id="mainHeader">
+      <div class="overlay">
+        <header class="container-fluid">
+          <div class="navbar">
+              <a href="index.html" id="logoBox">
+                <img src="images/trans-logo.png" alt="">
+              </a>
+              
+              <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Register</a></li>
+              </ul>
+          </div>
+        </header>
+    
+        <div id="bannerSection">
+           <div id="bannerContent">
+              <h2>Enjoy Burgry make <br> your Tummy Happy</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Similique molestias,<br> architecto aperiam assumenda incidunt laborum offi.
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    
 
-        getData();
-  </script>
+    <div id="orderSection" class="section-padding">
+      <h2 class="text-center">Order Your freshly made burger</h2>
+      <div class="container">
+        <div id="row" class="row">
+          
+        </div>
+      </div>
+    </div>
+
+    <div id="reviewSection" class="section-padding">
+      <h2 class="text-center text-white mb">What our Customers Say</h2>
+        <div class="container">
+          <div class="row">
+            <div class=" col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="review">
+                  <div class="profile-review">
+                      <img src="images/Fab.jpg" alt="">
+                  </div>
+                  
+                  <p class="name">Fabrizio Romano</p>
+                  <p class="quote">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Dolorum ipsam</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="review">
+                  <div class="profile-review">
+                      <img src="images/man2.jpg" alt="">
+                  </div>
+                  <p class="name">Emma Samson</p>
+                  <p class="quote">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Dolorum ipsam</p>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="review">
+                <div class="profile-review">
+                    <img src="images/marques.jpeg" alt="">
+                </div>
+                <p class="name">Marques Brownlee</p>
+                <p class="quote">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Dolorum ipsam</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <footer id="footerSection">
+        <p>
+          &copy;Copyright 2023 <span>AsEDeyHot</span>
+          <span class="span-author">Patrick</span>
+        </p>
+    </footer>
+
+  <script src="data.js"></script>
 </body>
 </html>
